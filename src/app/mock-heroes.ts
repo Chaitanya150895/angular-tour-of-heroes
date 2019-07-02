@@ -1,14 +1,14 @@
 import { Hero } from './hero'; //imported .hero.ts file here
 
 export const HEROES: Hero[] = [ //here 'const' means you can't append the array HEROES is const   
-  { id: 11, name: 'Dr Nice' },
-  { id: 12, name: 'Narco' },
-  { id: 13, name: 'Bombasto' },
-  { id: 14, name: 'Celeritas' },
-  { id: 15, name: 'Magneta' },
-  { id: 16, name: 'RubberMan' },
-  { id: 17, name: 'Dynama' },
-  { id: 18, name: 'Dr IQ' },
-  { id: 19, name: 'Magma' },
-  { id: 20, name: 'Tornado' }
+  { id: 11, name: 'SPIDER-MAN' },
+  { id: 12, name: 'IRON MAN' },
+  { id: 13, name: 'BLACK PANTHER' },
+  { id: 14, name: 'DEADPOOL' },
+  { id: 15, name: 'CAPTAIN AMERICA' },
+  { id: 16, name: 'ANT-MAN' },
+  { id: 17, name: 'CAPTAIN MARVEL' },
+  { id: 18, name: 'WOLVERINE' },
+  { id: 19, name: 'FALCON' },
+  { id: 20, name: 'THOR' }
 ];
