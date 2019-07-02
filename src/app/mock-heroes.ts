@@ -1,6 +1,6 @@
-import { Hero } from './hero';
+import { Hero } from './hero'; //imported .hero.ts file here
 
-export const HEROES: Hero[] = [
+export const HEROES: Hero[] = [ //here 'const' means you can't append the array HEROES is const   
   { id: 11, name: 'Dr Nice' },
   { id: 12, name: 'Narco' },
   { id: 13, name: 'Bombasto' },
