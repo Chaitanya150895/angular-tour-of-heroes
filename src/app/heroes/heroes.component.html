@@ -1,8 +1,19 @@
+<h2>MyHeroes</h2>
+<ul class="heroes">
+   
+ 
+    
 
-<h2>{{hero.name | uppercase}} Details</h2> <!--  //made it uppercase https://angular.io/guide/pipes -->
-<div><span>id: </span>{{hero.id}}</div>
-<div>
+  <li *ngFor="let hero of heroes"><span class="badge">{{hero.id}}</span> {{hero.name}}</li>
+  
+</ul>
+
+
+
+
+
+<!-- <div>
   <label>name:
     <input [(ngModel)]="hero.name" placeholder="name"/>
   </label>
-</div>
+</div> -->
