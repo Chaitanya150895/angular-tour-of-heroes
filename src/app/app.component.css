@@ -26,3 +26,14 @@ h1 {
   nav a.active {
     color: #039be5;
   }
+
+  .main-header .navbar {
+    -webkit-transition: margin-left .3s ease-in-out;
+    transition: margin-left .3s ease-in-out;
+    margin-bottom: 0;
+    margin-left: 230px;
+    border: none;
+    min-height: 50px;
+    border-radius: 0;
+    background-color: dodgerblue;
+}

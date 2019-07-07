@@ -1,4 +1,41 @@
 <div class="container">
+<header class="main-header">
+  <!-- Logo -->
+  <a href="index2.html" class="logo">
+    <span class="logo-mini"><b>{{title}}</b></span>
+    <span class="logo-lg"><b>{{title}}</b></span>
+  </a>
+  <nav class="navbar navbar-static-top">
+
+
+    <div class="navbar-custom-menu">
+      <ul class="nav navbar-nav">
+        
+        <li class="dropdown messages-menu">
+          <a routerLink="/dashboard" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-dashboard"></i> Dashboard
+          
+          </a>
+        </li>
+
+        <li class="dropdown messages-menu">
+          <a routerLink="/heroes" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-flash"></i>Heroes
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- <app-heroes></app-heroes> -->
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+</div>
+
+
+<!-- 
+<div class="container">
   <div class="jumbotron">
     <h1>{{title}}</h1>
   </div>
@@ -6,10 +43,10 @@
     <a routerLink="/dashboard">Dashboard</a>
     <a routerLink="/heroes">Heroes</a>
   </nav>
-  <!-- <app-heroes></app-heroes> -->
+  // <app-heroes></app-heroes>
   <router-outlet></router-outlet>
   <app-messages></app-messages>
-</div>
+</div> -->
 
 
 <!-- 
