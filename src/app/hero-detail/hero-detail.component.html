@@ -8,3 +8,10 @@
   </div>
   <button (click)="goBack()">go back</button>
 </div>
+
+<br>
+<p>The hero's birthday is {{ birthday | date:format | uppercase}}</p>
+  <button (click)="toggleFormat()">Toggle Format</button>
+
+  The chained hero's birthday is (uppercase) -
+{{ birthday | date:'fullDate' | uppercase}}
